@@ -5,3 +5,9 @@ libs = ["lib"]
 solc_version = '0.8.26'
 evm_version = 'cancun'
 via_ir = true
+
+remappings = [
+    "@pancakeswap/v4-core/=lib/pancake-v4-core/",
+    "@pancakeswap/v4-periphery/=lib/pancake-v4-periphery/",
+    "solmate/=lib/solmate/"
+]
